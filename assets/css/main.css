@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+html {
+    background-color: hsl(0, 0%, 95%);
+}
+
+.font-lexend-deca {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.font-big-shoulders {
+    font-family: 'Big Shoulders Display', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.main-card {
+    width: 1440px;
+}
+
+.center-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 200px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: hsl(0, 0%, 95%);
+}
+
+.description {
+    font-size: 10px;
+    color: hsla(0, 0%, 100%, 0.75)
+}
+
+.card-sedan {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 5px 0 0 5px;
+}
+
+.card-suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card-luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 5px 5px 0;
+}
+
+#sedan-icon {
+    background-image: url(../img/icon-sedans.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+    text-indent: -99999999px;
+    margin: 0;
+    font-size: 30px;
+}
+
+.card-button {
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 30px;
+    background-color: hsl(0, 0%, 95%);
+    text-decoration: none;
+    padding: 8px 20px;
+    font-size: 11px;
+}
+
+.card-button-sedan {
+    color: hsl(31, 77%, 52%);
+}
+
+.card-button-sedan:hover {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(31, 77%, 52%);
+}
+
+.card-button-suv {
+    color: hsl(184, 100%, 22%);
+}
+
+.card-button-suv:hover {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card-button-luxury {
+    color: hsl(179, 100%, 13%);
+}
+
+.card-button-luxury:hover {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(179, 100%, 13%);
+}
+
